@@ -1,7 +1,7 @@
 {
   "name": "Automatic iClicker",
   "description": "Automatically answers iClicker questions for desired classes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "manifest_version": 3,
   "host_permissions": ["https://www.iclicker.com/*"],
   "permissions": ["activeTab", "scripting", "storage"],
