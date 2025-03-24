@@ -1,7 +1,7 @@
 {
   "name": "Automatic iClicker",
   "description": "Automatically answers iClicker questions for desired classes",
-  "version": "1.0",
+  "version": "1.0.1",
   "manifest_version": 3,
   "host_permissions": ["https://www.iclicker.com/*"],
   "permissions": ["activeTab", "scripting", "storage"],
@@ -10,5 +10,11 @@
       "js": ["content.js"],
       "matches": ["https://www.iclicker.com/*"]
     }
-  ]
+  ],
+  "icons": {
+    "16": "images/iClicker_icon_16.png",
+    "32": "images/iClicker_icon_32.png",
+    "48": "images/iClicker_icon_48.png",
+    "128": "images/iClicker_icon_128.png"
+  }
 }
