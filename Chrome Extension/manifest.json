@@ -1,13 +1,13 @@
 {
   "name": "Automatic iClicker",
   "description": "Automatically answers iClicker questions for desired classes",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "manifest_version": 3,
   "host_permissions": ["https://www.iclicker.com/*"],
   "permissions": ["activeTab", "scripting", "storage"],
   "content_scripts": [
     {
-      "js": ["content.js"],
+      "js": ["scripts/content.js"],
       "matches": ["https://www.iclicker.com/*"]
     }
   ],
