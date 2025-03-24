@@ -1,0 +1,47 @@
+Join class button, copied element
+<button
+  _ngcontent-ng-c3564313299=""
+  id="btnJoin"
+  aria-describedby="joinDescription"
+  class="join-button"
+  tab-index="0"
+>
+  Join
+</button>
+
+Question field, copied element; Check for changes to trigger answer selection
+<h1 _ngcontent-ng-c3751368586="">
+  Question 1
+  <!---->
+</h1>
+Part of this element
+<div _ngcontent-ng-c3751368586="" class="center-buttons">
+  <h1 _ngcontent-ng-c3751368586="">
+    Question 1
+    <!---->
+  </h1>
+</div>
+
+Answer choice A, copied element
+<button
+  _ngcontent-ng-c2510068237=""
+  role="button"
+  class="btn"
+  id="multiple-choice-a"
+  aria-pressed="false"
+  aria-disabled="false"
+>
+  A
+</button>
+
+Answer recieved, copied element; Check to confirm answer submission was
+successful
+<div
+  _ngcontent-ng-c2510068237=""
+  id="status-text-container-id"
+  aria-live="polite"
+  role="alert"
+  class="status-text-container"
+>
+  Answer Received
+</div>
