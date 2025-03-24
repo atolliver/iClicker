@@ -1,5 +1,5 @@
 function elementChecker(selector, timeout = 10000) {
-  //timeout = 10 minutes
+  //timeout = 10 seconds
   return new Promise((resolve, reject) => {
     const pollingRate = 100;
     let timeElapsed = 0;
@@ -9,7 +9,7 @@ function elementChecker(selector, timeout = 10000) {
       if (element) {
         clearInterval(interval);
         resolve(element);
-      } else if ((timeElapsed += pollingRate) <= timeout) {
+      } else if ((timeElapsed += pollingRate) >= timeout) {
         clearInterval(interval);
         reject(new Error("Could not find the element within timeout"));
       }
